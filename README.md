@@ -155,3 +155,33 @@ For instance `getUserAndMessage` will record all the invocations of this functio
 
 So the library does the minimum amount of change detection checks required. In the example above, only when User 1 or Message 1 changes, the test component will be rechecked. If any other user or message changes, the component WON'T be rechecked.
 
+## How to Use
+
+To make it work with Angular CLI, do the following:
+
+Add ngselectors to your package.json:
+
+```
+"ngselectors": "https://github.com/vsavkin/ngselectors"
+```
+
+Add this to angular-cli-build.js
+
+```
+'ngselectors/**/*.js',
+```
+
+Update system-config.ts
+```
+const barrels: string[] = [
+  // Thirdparty barrels.
+  'ngselectors'
+];
+
+const cliSystemCo
+System.config({
+  map: {
+    'ngselectors': 'vendor/ngselectors/build'},
+  packages: cliSystemConfigPackages
+});
+```
