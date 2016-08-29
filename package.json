@@ -24,14 +24,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/angular/vladivostok.git"
+    "url": "git+https://github.com/vsavkin/ngselectors.git"
   },
   "author": "vsavkin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/angular/vladivostok/issues"
+    "url": "https://github.com/vsavkin/ngselectors/issues"
   },
-  "homepage": "https://github.com/angular/vladivostok#readme",
+  "homepage": "https://github.com/vsavkin/ngselectors#readme",
   "dependencies": {
     "@angular/common": "https://github.com/angular/common-builds",
     "@angular/compiler": "https://github.com/angular/compiler-builds",
