@@ -2,8 +2,8 @@
   "name": "ngselectors",
   "version": "0.0.1",
   "description": "",
-  "main": "./build/index.js",
-  "jsnext:main": "./build/esm/index.js",
+  "main": "./dist/index.js",
+  "jsnext:main": "./dist/esm/index.js",
   "scripts": {
     "karma": "karma start",
     "test": "npm run build; karma start",
@@ -62,5 +62,5 @@
     "@types/jasmine": "^2.2.33",
     "codelyzer": "0.0.14"
   },
-  "typings": "build/index.d.ts"
+  "typings": "dist/index.d.ts"
 }
