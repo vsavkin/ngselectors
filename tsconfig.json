@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noEmitOnError": false,
+    "module": "commonjs",
+    "target": "es5",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "outDir": "dist",
+    "rootDir": ".",
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "declaration": true,
+    "removeComments": true,
+    "lib": ["es6", "dom"]
+  },
+  "files": [
+    "src/index.ts",
+    "test/integration.spec.ts",
+    "node_modules/@types/jasmine/index.d.ts"
+  ]
+}
+
+
