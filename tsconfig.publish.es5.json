@@ -11,10 +11,10 @@
     "inlineSourceMap": true,
     "inlineSources": true,
     "declaration": true,
-    "removeComments": true
+    "removeComments": true,
+    "lib": ["es6", "dom"]
   },
   "files": [
-    "src/index.ts",
-    "typings/index.d.ts"
+    "src/index.ts"
   ]
 }
